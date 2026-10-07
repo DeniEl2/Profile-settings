@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Настройка профиля</title>
+</head>
+<body class="bd">
+    <div class="content">
+        <div class="top">
+            <div class="text1">
+                <h1>Настройки профиля</h1>
+                <p>Управление аккаунтом и персональными параметрами.</p>
+            </div>
+            <div>
+                <button class="btn1" type="button"><span>Сохранить</span></button>
+            </div>
+        </div>
+        <nav class="tabs">
+            <buttton class="btn2">Профиль</buttton>
+            <buttton class="btn3">Безопастность</buttton>
+            <buttton class="btn4">Уведомления</buttton>
+            <buttton class="btn5">Удаление</buttton>
+        </nav>
+        <div class="inner1">
+            <div class="text2"><h1>Личные данные</h1></div>
+            <form action="" method="post" class="conteiner1">
+                <label for="Name">Имя
+                    <input type="text" name="name" id="Name" class="input">
+                </label>
+                <label for="Foname">Фамиля
+                    <input type="text" name="foname" id="Foname" class="input">
+                </label>
+                <label for="Email">E-mail
+                    <input type="email" name="email" id="Email" class="input">
+                </label>
+                <label for="country">Страна
+                    <select name="country" id="country" class="input">
+                        <option value="ru">Россия</option>
+                        <option value="kz">Казахстан</option>
+                        <option value="by">Беларусь</option>
+                    </select>
+                </label>
+                <label for="message">О себе
+                    <textarea name="message" id="message" class="input1"></textarea>
+                </label>
+            </form>
+        </div>
+        <div class="inner2">
+            <h1>Безопастность</h1>
+            <form action="" method="post" class="conteiner2">
+                <label for="password">Новый пароль
+                    <input type="password" name="password" id="password" class="input">
+                </label>
+                <label for="Forpassword">Повторите пароль
+                    <input type="password" name="Forpassword" id="Forpassword" class="input">
+                </label>
+            </form>
+        </div>
+        <div class="inner3">
+            <h1>Уведомление</h1>
+            <form action="" method="post" class="fr">
+                <label for="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="check">
+                    <span class="psh">Email-уведомления</span>
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="check">
+                    <span class="psh">Push-уведемления</span>
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="check">
+                    <span class="psh">Все события</span>
+                </label>
+                <label for="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="check">
+                    <span class="psh">Только важные</span>
+                </label>
+            </form>
+        </div>
+        <div class="inner4">
+            <h1>Удаление аккаунта</h1>
+            <div class="bottom">
+                <p>Удаление аккаунта без возможности восстановления.</p>
+                <div>
+                <button type="button" class="btn"><span>Удалить аккаунт</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="foter">
+            <button type="button" class="btn6">Отмена</button>
+            <button type="button" class="btn7"><span>Сохранить изменения</span></button>
+        </div>
+    </div>
+</body>
+</html>

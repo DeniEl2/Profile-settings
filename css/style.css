@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+.bd{
+    background-color: #F4F6FB;
+}
+
+.content{
+    justify-content: center;
+    width: 940px;
+    max-width: 940px;
+    height: 1198px;
+    gap: 24px;
+    margin: 20px 0 20px 320px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    height: 61px;
+}
+
+.text1{
+    width: 514px;
+    height: 61px;
+    gap: 4px;
+}
+
+.text1 h1{
+    color: #1F2937;
+    width: 514px;
+    height: 38px;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.text1 p{
+    color: #6B7280;
+    width: 514px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.btn1{
+    width: 115px;
+    height: 43px;
+    border-radius: 12px;
+    padding: 12px 16px 12px 16px;
+    background-color: #4F6EF7;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn1 span{
+    width: 83px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+/*Табы*/
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 500px;
+    height: 43px;
+    text-align: left;
+    gap: 10px;
+}
+
+.btn2{
+    width: 105px;
+    height: 43px;
+    border-radius: 100px;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    color: #FFFFFF;
+    background-color: rgba(31, 41, 55, 1);
+    cursor: pointer;
+}
+
+.btn3{
+    width: 170px;
+    height: 43px;
+    border-radius: 100px;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    color: ;
+    background-color: #FFFFFF; 
+    cursor: pointer;
+
+}
+
+.btn4{
+    width: 140px;
+    height: 43px;
+    border-radius: 100px;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn5{
+    width: 110px;
+    height: 43px;
+    border-radius: 100px;
+    padding: 12px 16px 12px 16px;
+    gap: 4px;
+    color: ;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.inner1{
+    margin-top: 20px;
+    width: 940px;
+    height: 388px;
+    border-radius: 20px;
+    border: 1px solid rgba(231, 235, 243, 1);
+    padding: 24px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.text2{
+    width: 100%;
+    height: 24px;
+    font-size: 10px;
+    line-height: 120%;
+}
+
+.conteiner1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 892px;
+    height: 296px;
+}
+
+.conteiner1 label{
+    width: 100%;
+    height: 14px;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.input{
+    width: 438px;
+    min-height: 54px;
+    max-height: 54px;
+    height: 54px;
+    border-radius: 16px;
+    border: 1px solid rgba(217, 224, 234, 1);
+    padding: 0px 16px;
+    font-size: 16px;
+    line-height: 120%;
+    margin-top: 10px;
+    background-color: rgba(250, 251, 254, 1);
+}
+
+.input1{
+    width: 205%;
+    min-height: 54px;
+    max-height: 54px;
+    height: 54px;
+    border-radius: 16px;
+    border: 1px solid rgba(217, 224, 234, 1);
+    padding: 16px;
+    font-size: 16px;
+    line-height: 120%;
+    resize: none;
+    background-color: rgba(250, 251, 254, 1);
+    margin-top: 10px;
+}
+
+.inner2{
+    width: 940px;
+    height: 168px;
+    border-radius: 20px;
+    border: 1px solid rgba(231, 235, 243, 1);
+    padding: 24px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+.inner2 h1{
+    width: 133px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.conteiner2{
+    width: 892px;
+    height: 76px;
+    gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+}
+
+.conteiner2 label{
+    width: 100%;
+    height: 14px;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(107, 114, 128, 1);
+}
+
+.inner3{
+    width: 940px;
+    height: 216px;
+    border-radius: 20px;
+    border: 1px solid rgba(231, 235, 243, 1);
+    padding: 24px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+.inner3 h1{
+    width: 134px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    color: rgba(31, 41, 55, 1);
+}
+
+.fr label{
+    display: block;
+    width: 892px;
+    height: 16px;
+    margin-top: 20px;
+}
+
+.check{
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(217, 224, 234, 1);
+}
+
+.psh{
+    width: 336px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(107, 114, 128, 1);
+}
+
+.inner4{
+    width: 940px;
+    height: 135px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 216, 216, 1);
+    padding: 24px;
+    gap: 20px;
+    background-color: rgba(255, 247, 247, 1);
+    margin-top: 20px;
+}
+
+.inner4 h1{
+    width: 100%;
+    height: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.bottom{
+    width: 892px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bottom p{
+    width: 560px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 120%;
+    color: rgba(31, 41, 55, 1);
+}
+
+.btn{
+    width: 160px;
+    height: 43px;
+    border-radius: 12px;
+    padding: 12px 16px 12px 16px;
+    background-color: rgba(255, 92, 102, 1);
+    cursor: pointer;
+    border: none;
+}
+
+.btn span{
+    width: 100%;
+    height: 19px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.foter{
+    width: 940px;
+    height: 43px;
+    gap: 12px;
+    margin-top: 20px;
+    margin-left: 637px;
+}
+
+.btn6{
+    width: 91px;
+    height: 43px;
+    border-radius: 12px;
+    padding: 12px 16px;
+    border: none;
+    background-color: rgba(233, 237, 246, 1);
+    cursor: pointer;
+}
+
+.btn7{
+    width: 206px;
+    height: 43px;
+    border-radius: 12px;
+    padding: 12px 16px;
+    background-color: rgba(79, 110, 247, 1);
+    cursor: pointer;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.bnt7 span{
+    width: 174px;
+    height: 19px;
+    font-weight: bold;
+    font-size: 16px;
+}
